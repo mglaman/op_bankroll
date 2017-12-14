@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies: {  }
+id: weekly
+label: Weekly
+displayLabel: Weekly
+billingType: prepaid
+retrySchedule:
+  - 1
+  - 3
+  - 5
+unpaidSubscriptionState: canceled
+plugin: fixed
+configuration:
+  interval:
+    number: 1
+    unit: week
+prorater: full_price
+proraterConfiguration: {  }
